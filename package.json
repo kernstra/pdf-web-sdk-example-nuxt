@@ -1,0 +1,30 @@
+{
+  "name": "pdf-web-sdk-example-nuxt",
+  "description": "Nuxt 4 example for the Kernstra PDF Web SDK: view, annotate, edit and fill PDFs in the browser.",
+  "keywords": ["pdf", "pdf-viewer", "pdf-editor", "pdf-sdk", "pdf-annotation", "pdf-forms", "kernstra", "nuxt", "vue", "ssr", "typescript"],
+  "homepage": "https://kernstra.com/web-sdk",
+  "repository": { "type": "git", "url": "git+https://github.com/kernstra/pdf-web-sdk-example-nuxt.git" },
+  "bugs": { "url": "https://github.com/kernstra/pdf-web-sdk-example-nuxt/issues", "email": "support@kernstra.com" },
+  "license": "MIT",
+  "author": "Kernstra (https://kernstra.com)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@kernstra/pdf-web-sdk": "^1.0.0",
+    "nuxt": "^4.6.4",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.14"
+  }
+}
